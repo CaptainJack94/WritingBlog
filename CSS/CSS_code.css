@@ -9,6 +9,10 @@ body{
     
 }
 
+p{
+    color: black;
+}
+
 /*Title*/
 
 .Header, .footer, .NavBar{
@@ -16,26 +20,41 @@ body{
 }
 .Title{
     color: antiquewhite;
-    width: 50%;
-    
+    height: 100px;
+  width: 100px;
+  position: absolute;
+  left: 50%;
+ 
 }
 
 #Title{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: italic;
-    font-weight: bold;
+    font-family: "Felipa", serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 60px;
     border-style: none;
-    padding: 10px;
+    padding: 5px;
     border: 5px;
     margin: 10px;
     display: inline;
     position: fixed;
-    bottom: 700px;
-    left: 700px;
+    bottom: 770px;
+    left: 750px;    
+}
 
-    
-    
-    
+.ByMe{
+    color: antiquewhite;
+    font-family: "Felipa", serif;
+    font-style: italic;
+    font-weight: bold;
+    display: inline;
+    position: fixed;
+    bottom: 710px;
+    left: 800px;
+     padding: 10px;
+    border: 5px;
+    margin: 10px;
+
 }
 
 .Main{
@@ -60,11 +79,12 @@ body{
     color: red;
      display: inline-block;
      position: relative;
-    Top: 210px;
-    left: 440px;
-    padding: 20px;
-    width: 300px;
-    border: 2px;
+     Top: 200px;
+     left: 490px;
+     padding: 20px;
+     width: 300px;
+     border: 2px;
+     font-weight: bold;
     
     
     
@@ -91,20 +111,20 @@ body{
 
 #TopRow{
    position: fixed;
-    bottom: 700px;
-    left: 500px;
+    bottom: 690px;
+    left: 540px;
 }
 
 #MiddleRow{
     position: fixed;
-    bottom: 600px;
-    left: 500px;
+    bottom: 580px;
+    left: 540px;
 }
 
 #BottomRow{
     position: fixed;
-    bottom: 200px;
-    left: 500px;
+    bottom: 120px;
+    left: 540px;
 }
 
 
@@ -114,14 +134,29 @@ body{
     color: antiquewhite;
     
 }
+#TopLine{
+    display: inline-block;
+}
+
+#BottomLine{
+    display: inline-block;
+}
 
 /*beneath the blazing sun section */
 
 .BeneathTheBlazingSun{
-    display: block;
+    
     position: relative;
-    top: 280px;
-    left: 400px;
+    top: 240px;
+    left: 200px;
+    padding: 40px;
+    margin: 5px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    box-sizing: content-box;
+    width: 30%;
+    box-shadow: 5px 5px 5px white;
     
 
 }
@@ -129,11 +164,51 @@ body{
 /*pending story*/
 
 .Blank{
-    display: block;
+    
     position: relative;
-    top: 330px;
-    left: 400px;
+    top: 240px;
+    left: 300px;
+    padding: 40px;
+    margin: 5px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    box-sizing: content-box;
+    width: 30%;
+    box-shadow: 5px 5px 5px white;
 }
+
+.Blank_2{
+    
+    position: relative;
+    top: 300px;
+    left: 300px;
+    padding: 40px;
+    margin: 5px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    box-sizing: content-box;
+    width: 30%;
+    box-shadow: 5px 5px 5px white;
+}
+
+.Blank_1{
+    
+    position: relative;
+    top: 300px;
+    left: 200px;
+    padding: 40px;
+    margin: 5px;
+    border: solid;
+    border-radius: 30px;
+    border-width: 1px;
+    box-sizing: content-box;
+    width: 30%;
+    box-shadow: 5px 5px 5px white;
+}
+
+
 
 
 /*  Footer */
@@ -144,11 +219,13 @@ body{
     width: 100%;
     height: 4%;
     text-align: center; 
+    border-top: 2px solid white;
  
 }
 
 #Copyright{
     color: rgb(39, 33, 25);
+    font-weight: bold;
     /* text-align: center; */
     
 }
