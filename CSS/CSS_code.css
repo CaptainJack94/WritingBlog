@@ -4,13 +4,14 @@ html, body{
 
 /*body*/
 
-body{
+
+
+.HomePageBody{
     background-color: rgb(17, 2, 2);
-    
 }
 
-p{
-    color: black;
+#Abigtest{
+    color: rgb(123, 42, 42);
 }
 
 /*Title*/
@@ -229,3 +230,36 @@ p{
     /* text-align: center; */
     
 }
+
+
+/*About me Page*/
+
+#AboutMeTitle{
+    font-family: "Felipa", serif;
+    text-align: center;
+    
+}
+
+.AboutMeMain{
+    font-family: "Felipa", serif;
+    border-style: none;
+    display: flex; /* Enable Flexbox */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  margin-top: 50px;
+
+  
+  
+}
+
+#AboutMe{
+    width: 90%;
+  padding: 30px;
+  box-sizing: border-box;
+  background-color: rgb(212, 155, 40); /* Just for visualization */
+  text-align: center; /* To center the text inside the box */
+  margin-top: 50px;
+}
+
+/*About me rows*/
+
